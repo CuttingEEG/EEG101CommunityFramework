@@ -17,6 +17,8 @@ If you'd like to see the living reference list for the EEG Manifesto please go t
 
 - Bastos-Filho, T. (2020). *Introduction to Non-Invasive EEG-Based Brain-Computer Interfaces for Assistive Technologies*. CRC Press.[](){ #Bastos2020 }
 
+- [Becoming a Scientist: The Graphic Novel. (2024, July 31).](Issuu. https://issuu.com/adrian.liston/docs/becoming_a_scientist){ #Becoming2024 }
+
 - [Berlant, L. (2011). *Cruel Optimism*. Duke University Press.](https://doi.org/10.1515/9780822394716){ #Berlant2011 }
 
 - [Birhane, A., Dehdashtian, S., Prabhu, V., & Boddeti, V. (2024). The Dark Side of Dataset Scaling: Evaluating Racial Classification in Multimodal Models. *Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency*, 1229–1244.](https://doi.org/10.1145/3630106.3658968){ #Birhane2024 }
