@@ -36,22 +36,22 @@ I commit to support increasing the diversity of my scientific community. I will 
   ///
   /// html | li
     
-    <input type='checkbox' checked name="pledge_2_1_2" class="data-input"/>
+    <input type='checkbox' checked name="pledge_2_1_3" class="data-input"/>
     prioritizing building long-term, mutually beneficial collaborations with researchers in under-resourced regions, ensuring that intellectual property, data ownership, and authorship are shared fairly to counteract 'brain drain' and strengthen local scientific capacity.  
   ///
   /// html | li
   
-    <input type='checkbox' checked name="pledge_2_1_3" class="data-input"/>
+    <input type='checkbox' checked name="pledge_2_1_4" class="data-input"/>
     following the [TRUST](https://www.globalcodeofconduct.org/the-code/){:target="_blank"} code \- a global code of conduct for equitable research partnerships \- engaging fairly with researchers with fewer resources for research, adapting research methodologies to be culturally appropriate and respectful, ensuring studies are designed with input from the communities involved, avoiding “ethics dumping” [(Schroeder et al., 2021)](references.md#Schroeder2021), providing training and appropriate authorship credit to collaborators.
   ///
   /// html | li
 
-    <input type='checkbox' checked name="pledge_2_1_4" class="data-input"/>
+    <input type='checkbox' checked name="pledge_2_1_5" class="data-input"/>
     promoting a more democratic global academic sector by advocating for funding and ethics-review criteria and engaging in practices that expand opportunities for underrepresented and underserved groups—including but not limited to those from low- and middle-income countries, rural areas, indigenous communities, and regions affected by conflict.
   ///
   /// html | li
     
-    <input type='checkbox' checked name="pledge_2_1_5" class="data-input"/>
+    <input type='checkbox' checked name="pledge_2_1_6" class="data-input"/>
     engaging in practices such as distributed and online conferences that foster accessible academic networking and prevent barriers to participation (visa, time commitment, costs, etc.).
   ///
 ///
