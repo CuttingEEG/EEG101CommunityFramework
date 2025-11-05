@@ -9,7 +9,7 @@ To start you will need to set up the backend on Supabase and get the API info
    1. Change region to EU option (I chose EU-west)  
    2. The other default settings for the new project are fine   
 4. Create database for project  
-   1. Copy contents of `generate_schema.sql` file in the EEG100Manifesto repo  
+   1. Copy contents of `generate_schema.sql` file in the EEG101CommunityFramework repo  
    2. Paste in Supabase ‘SQL editor’ and execute  
       1. 3rd icon down on left-hand side-bar  
       2. Create new private snippet  

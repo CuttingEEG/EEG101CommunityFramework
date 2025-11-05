@@ -1,4 +1,4 @@
-name: Build and Deploy EEG Manifesto site with Dynamic Data
+name: Build and Deploy EEG101 Community Framework site with Dynamic Data
 
 on:
   workflow_dispatch: # Allows manual trigger from GitHub Actions UI

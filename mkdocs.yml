@@ -1,6 +1,6 @@
-site_name: EEG100 Manifesto
+site_name: EEG101 Community Framework
 nav:
-  - Manifesto: index.md
+  - Community Framework: index.md
   - signatories.md
   - contributors.md
   - glossary.md

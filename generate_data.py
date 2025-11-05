@@ -42,7 +42,7 @@ def generate_markdown_content(submissions):
 
 
     md_content = dedent(f"""
-    # Manifesto Signatories
+    # Community Framework Signatories
     This page is updated daily.  If you've just signed up publicly, your name will appear on the next update.  
     Last updated: *{os.environ.get('GITHUB_RUN_TIMESTAMP', 'N/A')} (UTC)*
     """)

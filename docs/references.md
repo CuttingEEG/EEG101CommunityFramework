@@ -1,6 +1,6 @@
 # References
 
-If you'd like to see the living reference list for the EEG Manifesto please go to the 
+If you'd like to see the living reference list for the EEG Community Framework please go to the 
 [Zotero library](https://www.zotero.org/groups/5794905/eegmanifesto/collections/ZD2RV8H9){:target="_blank"}
 
 
