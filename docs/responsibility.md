@@ -89,15 +89,13 @@ I commit to carefully consider the ethical implications of my research practice,
 /// details | 3.2. Overestimating technology
     type: info 
 
-New research technologies and analysis methods can correct shortcomings of previous tools, enable new observations and crucially progress our understanding of the brain; hence, tool development is a cornerstone of contemporary neuroscience.
+New research technologies and analysis methods can correct shortcomings of previous tools, enable new observations, and crucially progress our understanding of the brain; hence, tool development is a cornerstone of contemporary neuroscience.
 
-However, there can also be hype dynamics, and possibly cruel optimism [(Berlant, 2011)](references.md#Berlant2011), as our fascination with advanced, cutting-edge instrumentation can make projects that feature such tools seem inherently more compelling and worthwhile [(Nielsen & Andersen, 2022)](references.md#Nielsen2022). Similar to the current fascination of the general public with neuroscientific explanations [(Weisberg, 2008)](references.md#Weisberg2008) and brain imaging [(McCabe & Castel, 2018)](references.md#McCabe2008), we should also see the risks of such biases, though \- hypes fade, and only time will tell how sustainable a progress was made.
+However, there can also be hype dynamics, and possibly cruel optimism [(Berlant, 2011)](references.md#Berlant2011), as our fascination with advanced, cutting-edge instrumentation can make projects that feature such tools seem inherently more compelling and worthwhile [(Nielsen & Andersen, 2022)](references.md#Nielsen2022) at a cost that may exceed the expected benefits. Similar to the current fascination of the general public with neuroscientific explanations [(Weisberg et al, 2008)](references.md#Weisberg2008) and brain imaging [(McCabe & Castel, 2008)](references.md#McCabe2008), we should also see the risks of such biases and take responsibility for discerning what is truly possible, what is desirable, what belongs to fantasy, and what should be rejected.
 
-New tools should be developed, and when they are they must be validated and tested out. The governing thought when deciding for a particular tool in empirical research, however, should be *scientific progress* rather than mere aesthetics or business.
+New tools should be developed, validated, and tested, but the governing thought should be scientific progress when deciding on a particular tool in empirical research. Unquestioningly adapting new tools and abandoning established techniques might have negative consequences: For example, powerful ML tools can lead to a relative devaluation of theory (see Section 1 - Validity). Focusing on new expensive recording devices may counteract the importance of cultivating expertise in data quality control and analysis. Both expertise and open science practices rely on stable, long-term scientist positions. Furthermore, adopting new tools is resource-intensive, which might reproduce global inequalities (see Democratization) and create problems in terms of ecological sustainability (see the following Section).
 
-Blindly adapting new tools and abandoning established techniques might even have negative consequences: For example, powerful ML tools can progress a relative devaluation of theory (see Section 1). Focusing on new recording devices may counteract the importance of fair career development and cultivating expertise in data quality control and open science. Furthermore, adopting new tools is resource intensive, which might reproduce global inequalities (see Democratization) and create problems in terms of ecological sustainability (see following Section).
-
-Given its relatively low-tech nature, EEG research can particularly benefit from easy-to-repair, shareable, or open hardware, if we as a field resist this urge. By prioritizing resilience over novelty—such as defining long-term sustainability plans, pooling resource-intensive tools, and collaborating with hardware manufacturers—we can strike a better balance between investing in human capital and in equipment. This strategy not only encourages more equitable and innovative research but can also contribute to ensuring a sustainable future for EEG science.
+Given its relatively low-tech nature, EEG research can particularly benefit from easy-to-repair, shareable, or open hardware. By prioritizing resilience over novelty—such as defining long-term sustainability plans, pooling resource-intensive tools, and collaborating with hardware manufacturers—we can better balance investing in human capital and equipment. This strategy encourages more equitable and innovative research and can contribute to ensuring a sustainable future for EEG science.
 
 ///
 
@@ -106,14 +104,14 @@ Given its relatively low-tech nature, EEG research can particularly benefit from
     open: True
 
 <input type='checkbox' checked id="cb-3-2" class="cb-sa" onchange="toggleCheckboxes(event)"/>
-I commit to critically evaluate new technologies through the lens of their contribution to science. I will do so by:
+I commit to critically evaluating new technologies through their contribution to science. I will do so by:
 
 /// html | ul.tasklist
 
   /// html | li
 
     <input type='checkbox' checked name="pledge_3_2_1" class="data-input" />
-    explicitly weighing investments in new technology against the development of in-house expertise, fair compensation, and the effective use of the technologies already in place.  
+    explicitly weighing investments in new technology against developing in-house expertise, fair compensation, and the effective use of existing technologies.  
   ///
   /// html | li
 
@@ -176,7 +174,7 @@ I commit to critically evaluate new technologies through the lens of their contr
 
 There are growing concerns about the criteria used to evaluate scientific projects and the promises made in relation to them. Many assessment bodies still rely on narrow metrics—such as journal impact factor or h-index—that fail to capture the breadth and nuance of academic careers. This focus discourages interdisciplinary, collaborative, and open-science approaches.
 
-Adopting broader research evaluation procedures and metrics, as recommended by the Coalition for Advancing Research Assessment ([CoARA](https://coara.eu/){:target="_blank"}), is key to creating a more open, equitable, and ethically grounded research culture. Criteria that value transparency, data sharing, and open-source development can strengthen the robustness, reliability, and social relevance of scientific findings. Embracing these more comprehensive measures can help foster integrity, encourage collaboration, and ultimately benefit both the scientific community and society at large.
+Adopting broader research evaluation procedures and metrics recommended by the Coalition for Advancing Research Assessment ([CoARA](https://coara.eu/){:target="_blank"}) is key to creating a more open, equitable, and ethically grounded research culture. Criteria that value transparency, data sharing, and open-source development can strengthen scientific findings' robustness, reliability, and social relevance. Embracing these more comprehensive measures can help foster integrity, encourage collaboration, and ultimately benefit the scientific community and society.
 
 ///
 
@@ -185,7 +183,7 @@ Adopting broader research evaluation procedures and metrics, as recommended by t
     open: True
 
 <input type='checkbox' checked id="cb-3-3" class="cb-sa" onchange="toggleCheckboxes(event)"/>
-I commit to participate in changing research evaluation to avoid focusing on single criteria. I will contribute to broadening research evaluation by:
+I commit to participating in changing the research evaluation to avoid focusing on a single criterion. I will contribute to broadening research evaluation by:
 
 /// html | ul.tasklist
 
@@ -197,17 +195,12 @@ I commit to participate in changing research evaluation to avoid focusing on sin
   /// html | li
 
     <input type='checkbox' checked name="pledge_3_3_2" class="data-input" />
-    encouraging assessment criteria that prioritize open practices (data sharing, preregistration, code release) and value multidisciplinary teamwork    
+    encouraging assessment criteria that prioritize open practices (data sharing, preregistration, code release) and value multidisciplinary teamwork, advocating for and implementing assessment frameworks (e.g., those proposed by CoARA) that emphasize integrity, inclusivity, and social impact alongside scientific excellence.    
   ///
   /// html | li
 
     <input type='checkbox' checked name="pledge_3_3_3" class="data-input" />
-    advocating for and implementing assessment frameworks (e.g., those proposed by CoARA) that emphasize integrity, inclusivity, and social impact alongside scientific excellence. 
-  ///
-  /// html | li
-
-    <input type='checkbox' checked name="pledge_3_3_4" class="data-input" />
-    continually reviewing and refining evaluation metrics within my sphere of influence—whether as a grant reviewer, hiring committee member, or collaborator—and to pushing for broader acceptance of open, ethical, and diversified research practices.  
+    continually reviewing and refining evaluation metrics within my sphere of influence—whether as a grant reviewer, hiring committee member, or collaborator—and pushing for broader acceptance of open, ethical, and diversified research practices. 
   ///
 
 ///
