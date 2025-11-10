@@ -129,32 +129,35 @@ def export_to_google_sheets(data):
         if data:
             headers = list(data[0].keys())
             
+            # Limit to first 8 columns (A-H)
+            headers = headers[:8]
+            
             # Prepare data for sheets (convert to list of lists)
             values = [headers]  # First row is headers
             for row in data:
                 values.append([row.get(col) for col in headers])
             
-            # Clear existing data first
+            # Clear existing data first (only columns A-H)
             try:
                 sheet.values().clear(
                     spreadsheetId=GOOGLE_SHEET_ID,
-                    range='SignatureData'
+                    range='SignatureData!A:H'
                 ).execute()
             except HttpError as clear_error:
                 print(f"Warning: Could not clear sheet (may be empty): {clear_error}")
             
-            # Write the data
+            # Write the data to columns A-H
             body = {
                 'values': values
             }
             result = sheet.values().update(
                 spreadsheetId=GOOGLE_SHEET_ID,
-                range='SignatureData!A1',
+                range='SignatureData!A1:H',
                 valueInputOption='RAW',
                 body=body
             ).execute()
             
-            print(f"Successfully exported {result.get('updatedRows')} rows to Google Sheets")
+            print(f"Successfully exported {result.get('updatedRows')} rows to Google Sheets (columns A-H)")
             print(f"Columns included: {', '.join(headers)}")
             
     except HttpError as error:
