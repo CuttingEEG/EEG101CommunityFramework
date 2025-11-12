@@ -243,7 +243,7 @@ I commit to consider the environmental impact of my lab and my research. I will 
   /// html | li
 
     <input type='checkbox' checked name="pledge_3_4_3" class="data-input" />
-    emaining mindful of how academia’s incentive structures can undermine sustainability goals. I will strive to foster discussions, both within my lab and in broader networks, about rethinking these systemic norms.  
+    remaining mindful of how academia’s incentive structures can undermine sustainability goals. I will strive to foster discussions, both within my lab and in broader networks, about rethinking these systemic norms.  
   ///
   /// html | li
 
