@@ -156,7 +156,7 @@ I commit to promoting a wide use of my research for the scientific community, an
   /// html | li
 
     <input type='checkbox' checked name="pledge_2_3_3" class="data-input" />
-    sing research results to inform policies and investments that target health inequalities and under-resourced areas, ensuring that EEG applications reach communities where they are needed most.
+    using research results to inform policies and investments that target health inequalities and under-resourced areas, ensuring that EEG applications reach communities where they are needed most.
   ///
 
 ///
