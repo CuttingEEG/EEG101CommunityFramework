@@ -1,1 +1,18 @@
 site/
+
+# Google API credentials - keep these private!
+credentials.json
+token.json
+
+# Test outputs
+test_output.md
+reference_analysis.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/

@@ -1,3 +1,2 @@
-# EEG 101 Community Framework Draft website
+# EEG Community Framework
 
-Built using MKDocs
