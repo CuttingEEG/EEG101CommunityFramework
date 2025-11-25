@@ -395,359 +395,168 @@
 <h2 id="responsibility-considering-societal-impacts-issues-of-equity-and-sustainability">Responsibility: considering societal impacts, issues of equity, and sustainability.</h2>
 <p>EEG's non-invasive nature and relatively low cost make it a seemingly harmless technology, but beneath this benign facade lie complex questions that warrant careful consideration. The steady progress in neurotechnology makes it important to scrutinize the implications of foreseeable uses. Further, although technological advancement continually unlocks new possibilities, it simultaneously shapes how we understand and inquire about the world, and should not obscure the original purpose of science, namely to seek understanding rather than merely to enable control or commodification.</p>
 <p>EEG research typically uses relatively few consumables and less resource-intensive electronics than many other domains, making it seem innocuous by comparison. However, the growing affordability of EEG devices and their expansion into consumer markets could turn this advantage into a challenge if we overlook their broader impact and possible rebound effects.</p>
-<p>We are responsible for examining these broader implications---beyond our immediate scientific interests and practices---to encourage responsible use.</p>
+<p>We are responsible for examining these broader implications—beyond our immediate scientific interests and practices—to encourage responsible use.</p>
 <h3 id="societal-and-technological-responsibility">Societal and technological responsibility</h3>
 <p>Applications of EEG research are potentially far reaching, and potential misuses should not be overlooked.</p>
-<details>
+<details class="info">
 <summary>3.1. Ethical use of EEG</summary>
-<pre><code>type: info
-</code></pre>
-<p>Conversations around ethical accountability for scientific discoveries and real-world applications have a long history, extending beyond the scientific community. Each research field faces distinct risks and benefits, and EEG is no exception. In particular, EEG has been explored for sensitive or potentially sensitive uses, such as detecting "concealed information" (<a href="../references/#Farwell2012">Farwell, 2012</a>; <a href="../references/#Rosenfeld2005">Rosenfeld, 2005</a>; <a href="../references/#Wolpe2005">Wolpe et al., 2005</a>), enabling implicit interaction outside the participant's awareness (<a href="../references/#Fairclough2017">Fairclough, 2017</a>; <a href="../references/#Krol2020">Krol et al., 2020</a>; <a href="../references/#Zander2016">Zander et al., 2016</a>), and launching so-called "side-channel attacks" that decode private data like PIN codes <a href="../references/#Lange2018">(Lange et al., 2018)</a>. Together, these applications demonstrate the capacity of EEG to decode---and possibly influence---a person's brain activity, heightening concerns about individual privacy <a href="../references/#Mecacci2019">(Mecacci &amp; Haselager, 2019)</a>, mental integrity <a href="../references/#Ienca2017">(Ienca &amp; Andorno, 2017)</a>, and broader social equity <a href="../references/#Hyman2011">(Hyman, 2011)</a>.</p>
-<p>Researchers must carefully evaluate their work's potential societal impacts, including how future developments may build on today's findings. Although many EEG studies cite adherence to the Declaration of Helsinki, that document primarily focuses on medical research, leaving gaps for more general EEG practices. Current legal discussions (e.g. <a href="../references/#Muhl2024">Muhl, 2024</a>; <a href="../references/#Yuste2023">Yuste, 2023</a>) and best-practice recommendations <a href="../references/#Niso2022b">(Niso, Krol, et al., 2022a)</a> underscore the importance of addressing EEG-specific ethical considerations. Meanwhile, the increasing integration of ML/AI in EEG (e.g., automated signal classification, neural decoding) amplifies risks of inaccurate interpretations, overgeneralizations, and bias (<a href="../references/#Birhane2024">Birhane et al., 2024</a>; <a href="../references/#Bolte2024">Bolte &amp; van Wynsberghe, 2024</a>). Beyond the Declaration of Helsinki, therefore, researchers and developers of EEG-based neurotechnology should look both at more generic frameworks concerning the use of personal data, automated decision-making, and AI, and at more specific guidelines concerning aspects directly related to neurotechnology, like <a href="https://neurorightsfoundation.org/" target="_blank">neurorights</a>. The former can guide the researcher, for example, in specifying verifiable quality criteria ahead of time and ensuring proper oversight. In contrast, the latter can aid in evaluating of specific solutions, among other things.</p>
-<p>A variety of organisations offer further guidance, both generic and specific. <a href="https://www.unesco.org/en/ethics-neurotech" target="_blank">UNESCO's reports on neurotechnology ethics</a> and the <a href="https://legalinstruments.oecd.org/en/instruments/oecd-legal-0457" target="_blank">OECD's recommendations on responsible innovation in neurotechnology</a> provide foundational strategies to safeguard privacy and autonomy, including in areas such as brain fingerprinting or generative AI <a href="../references/#Knoechel2024">(Knoechel et al., 2024)</a>. The <a href="https://neurorightsfoundation.org/" target="_blank">NeuroRights Foundation</a> advocates treating neural data as highly sensitive and recommends technical protections like encryption and differential privacy to avert misuse <a href="../references/#Yuste2023">(Yuste, 2023)</a>. Together, these measures illustrate the growing consensus that EEG researchers must proactively address the near-term ethical challenges and the longer-term implications of their work.</p>
+<p>Conversations around ethical accountability for scientific discoveries and real-world applications have a long history, extending beyond the scientific community. Each research field faces distinct risks and benefits, and EEG is no exception. In particular, EEG has been explored for sensitive or potentially sensitive uses, such as detecting “concealed information” (<a href="../references/#Farwell2012">Farwell, 2012</a>; <a href="../references/#Rosenfeld2005">Rosenfeld, 2005</a>; <a href="../references/#Wolpe2005">Wolpe et al., 2005</a>), enabling implicit interaction outside the participant’s awareness (<a href="../references/#Fairclough2017">Fairclough, 2017</a>; <a href="../references/#Krol2020">Krol et al., 2020</a>; <a href="../references/#Zander2016">Zander et al., 2016</a>), and launching so-called “side-channel attacks” that decode private data like PIN codes <a href="../references/#Lange2018">(Lange et al., 2018)</a>. Together, these applications demonstrate the capacity of EEG to decode—and possibly influence—a person’s brain activity, heightening concerns about individual privacy <a href="../references/#Mecacci2019">(Mecacci &amp; Haselager, 2019)</a>, mental integrity <a href="../references/#Ienca2017">(Ienca &amp; Andorno, 2017)</a>, and broader social equity <a href="../references/#Hyman2011">(Hyman, 2011)</a>.</p>
+<p>Researchers must carefully evaluate their work’s potential societal impacts, including how future developments may build on today’s findings. Although many EEG studies cite adherence to the Declaration of Helsinki, that document primarily focuses on medical research, leaving gaps for more general EEG practices. Current legal discussions (e.g. <a href="../references/#Muhl2024">Muhl, 2024</a>; <a href="../references/#Yuste2023">Yuste, 2023</a>) and best-practice recommendations <a href="../references/#Niso2022b">(Niso, Krol, et al., 2022a)</a> underscore the importance of addressing EEG-specific ethical considerations. Meanwhile, the increasing integration of ML/AI in EEG (e.g., automated signal classification, neural decoding) amplifies risks of inaccurate interpretations, overgeneralizations, and bias (<a href="../references/#Birhane2024">Birhane et al., 2024</a>; <a href="../references/#Bolte2024">Bolte &amp; van Wynsberghe, 2024</a>). Beyond the Declaration of Helsinki, therefore, researchers and developers of EEG-based neurotechnology should look both at more generic frameworks concerning the use of personal data, automated decision-making, and AI, and at more specific guidelines concerning aspects directly related to neurotechnology, like <a href="https://neurorightsfoundation.org/" target="_blank">neurorights</a>. The former can guide the researcher, for example, in specifying verifiable quality criteria ahead of time and ensuring proper oversight. In contrast, the latter can aid in evaluating of specific solutions, among other things.</p>
+<p>A variety of organisations offer further guidance, both generic and specific. <a href="https://www.unesco.org/en/ethics-neurotech" target="_blank">UNESCO's reports on neurotechnology ethics</a>  and the <a href="https://legalinstruments.oecd.org/en/instruments/oecd-legal-0457" target="_blank">OECD’s recommendations on responsible innovation in neurotechnology</a> provide foundational strategies to safeguard privacy and autonomy, including in areas such as brain fingerprinting or generative AI <a href="../references/#Knoechel2024">(Knoechel et al., 2024)</a>. The <a href="https://neurorightsfoundation.org/" target="_blank">NeuroRights Foundation</a> advocates treating neural data as highly sensitive and recommends technical protections like encryption and differential privacy to avert misuse <a href="../references/#Yuste2023">(Yuste, 2023)</a>. Together, these measures illustrate the growing consensus that EEG researchers must proactively address the near-term ethical challenges and the longer-term implications of their work.</p>
 </details>
-<details>
+<details class="pledge" open="open">
 <summary>Pledges</summary>
-<pre><code>type: pledge
-open: True
-</code></pre>
 <p><input type='checkbox' checked id="cb-3-1" class="cb-sa" onchange="toggleCheckboxes(event)"/>
 I commit to carefully consider the ethical implications of my research practice, and the data that I collect. I will do so by:</p>
 <ul class="tasklist">
-<li><input type='checkbox' checked name="pledge_3_1_1" class="data-input" />
-respecting each individual's right to self-determination and always prioritize the welfare of participants and (future) users over personal, scientific, or commercial interests.
-
-    ///
-
-    /// html | li
-
-<input type='checkbox' checked name="pledge_3_1_2" class="data-input" />
-adhering to the CARE framework (Collective Benefit, Authority to Control, Responsibility, Ethics) <a href="../references/#Carroll2020">(Carroll et al., 2020b)</a>, integrating these values in all relevant processes and collaborations.
-
-    ///
-
-    /// html | li
-
-<input type='checkbox' checked name="pledge_3_1_3" class="data-input" />
-conducting thorough ethical evaluations before pursuing sensitive EEG applications (e.g., lie or intention detection), ensuring they are backed by sound scientific evidence and embedded in an up-to-date discussion on ethical, legal, and societal implications.
-
-    ///
-
-    /// html | li
-
-<input type='checkbox' checked name="pledge_3_1_4" class="data-input" />
-refraining from marketing or deploying neurotechnological products or services unless supported by robust, peer-reviewed evidence of safety and efficacy.
-
-    ///
-
-    /// html | li
-
-<input type='checkbox' checked name="pledge_3_1_5" class="data-input" />
-making responsible and ethical use of generative AI in accordance with UNESCO guidelines, remaining vigilant about potential misuse.
-
-    ///
-
-    /// html | li
-
-<input type='checkbox' checked name="pledge_3_1_6" class="data-input" />
-educating colleagues and trainees about hardware, software, modeling, and data interpretation risks, advocating for safe, fair, and sustainable neurotechnology.
-
-    ///
-
-    /// html | li
-
-<input type='checkbox' checked name="pledge_3_1_7" class="data-input" />
-disclosing and minimizing conflicts of interest, and will not endorse or profit from EEG products lacking evidence-based grounding.
-
-    ///
-
-    /// html | li
-
-<input type='checkbox' checked name="pledge_3_1_8" class="data-input" />
-not collecting EEG or neural data without explicit consent, nor passing them on to third parties or merging them with other data sources without proper authorization.
-
-    ///
-
-    /// html | li
-
-<input type='checkbox' checked name="pledge_3_1_9" class="data-input" />
-not contributing to the development of, or market any, neurotechnology whose primary purpose is to circumvent a user's control over their information.
-
-    ///
-
-    /// html | li
-
-<input type='checkbox' checked name="pledge_3_1_10" class="data-input" />
-making no scientific claims without reasonable empirical support, and will acknowledge uncertainty when disseminating EEG findings. 
-
-    ///</li>
+<li>    <input type='checkbox' checked name="pledge_3_1_1" class="data-input" />
+    respecting each individual’s right to self-determination and always prioritize the welfare of participants and (future) users over personal, scientific, or commercial interests.  </li>
+<li>    <input type='checkbox' checked name="pledge_3_1_2" class="data-input" />
+    adhering to the CARE framework (Collective Benefit, Authority to Control, Responsibility, Ethics) <a href="../references/#Carroll2020">(Carroll et al., 2020b)</a>, integrating these values in all relevant processes and collaborations.  </li>
+<li>    <input type='checkbox' checked name="pledge_3_1_3" class="data-input" />
+    conducting thorough ethical evaluations before pursuing sensitive EEG applications (e.g., lie or intention detection), ensuring they are backed by sound scientific evidence and embedded in an up-to-date discussion on ethical, legal, and societal implications.  </li>
+<li>    <input type='checkbox' checked name="pledge_3_1_4" class="data-input" />
+    refraining from marketing or deploying neurotechnological products or services unless supported by robust, peer-reviewed evidence of safety and efficacy.  </li>
+<li>    <input type='checkbox' checked name="pledge_3_1_5" class="data-input" />
+    making responsible and ethical use of generative AI in accordance with UNESCO guidelines, remaining vigilant about potential misuse.  </li>
+<li>    <input type='checkbox' checked name="pledge_3_1_6" class="data-input" />
+    educating colleagues and trainees about hardware, software, modeling, and data interpretation risks, advocating for safe, fair, and sustainable neurotechnology.  </li>
+<li>    <input type='checkbox' checked name="pledge_3_1_7" class="data-input" />
+    disclosing and minimizing conflicts of interest, and will not endorse or profit from EEG products lacking evidence-based grounding.  </li>
+<li>    <input type='checkbox' checked name="pledge_3_1_8" class="data-input" />
+    not collecting EEG or neural data without explicit consent, nor passing them on to third parties or merging them with other data sources without proper authorization.  </li>
+<li>    <input type='checkbox' checked name="pledge_3_1_9" class="data-input" />
+    not contributing to the development of, or market any, neurotechnology whose primary purpose is to circumvent a user’s control over their information.  </li>
+<li>    <input type='checkbox' checked name="pledge_3_1_10" class="data-input" />
+    making no scientific claims without reasonable empirical support, and will acknowledge uncertainty when disseminating EEG findings.</li>
 </ul>
-<details>
+</details>
+<details class="info">
 <summary>3.2. Overestimating technology</summary>
-<p>type: info</p>
 <p>New research technologies and analysis methods can correct shortcomings of previous tools, enable new observations, and crucially progress our understanding of the brain; hence, tool development is a cornerstone of contemporary neuroscience.</p>
 <p>However, there can also be hype dynamics, and possibly cruel optimism <a href="../references/#Berlant2011">(Berlant, 2011)</a>, as our fascination with advanced, cutting-edge instrumentation can make projects that feature such tools seem inherently more compelling and worthwhile <a href="../references/#Nielsen2022">(Nielsen &amp; Andersen, 2022)</a> at a cost that may exceed the expected benefits. Similar to the current fascination of the general public with neuroscientific explanations <a href="../references/#Weisberg2008">(Weisberg et al, 2008)</a> and brain imaging <a href="../references/#McCabe2008">(McCabe &amp; Castel, 2008)</a>, we should also see the risks of such biases and take responsibility for discerning what is truly possible, what is desirable, what belongs to fantasy, and what should be rejected.</p>
 <p>New tools should be developed, validated, and tested, but the governing thought should be scientific progress when deciding on a particular tool in empirical research. Unquestioningly adapting new tools and abandoning established techniques might have negative consequences: For example, powerful ML tools can lead to a relative devaluation of theory (see Section 1 - Validity). Focusing on new expensive recording devices may counteract the importance of cultivating expertise in data quality control and analysis. Both expertise and open science practices rely on stable, long-term scientist positions. Furthermore, adopting new tools is resource-intensive, which might reproduce global inequalities (see Democratization) and create problems in terms of ecological sustainability (see the following Section).</p>
-<p>Given its relatively low-tech nature, EEG research can particularly benefit from easy-to-repair, shareable, or open hardware. By prioritizing resilience over novelty---such as defining long-term sustainability plans, pooling resource-intensive tools, and collaborating with hardware manufacturers---we can better balance investing in human capital and equipment. This strategy encourages more equitable and innovative research and can contribute to ensuring a sustainable future for EEG science.</p>
+<p>Given its relatively low-tech nature, EEG research can particularly benefit from easy-to-repair, shareable, or open hardware. By prioritizing resilience over novelty—such as defining long-term sustainability plans, pooling resource-intensive tools, and collaborating with hardware manufacturers—we can better balance investing in human capital and equipment. This strategy encourages more equitable and innovative research and can contribute to ensuring a sustainable future for EEG science.</p>
 </details>
-<details>
+<details class="pledge" open="open">
 <summary>Pledges</summary>
-<p>type: pledge
-open: True</p>
 <p><input type='checkbox' checked id="cb-3-2" class="cb-sa" onchange="toggleCheckboxes(event)"/>
 I commit to critically evaluating new technologies through their contribution to science. I will do so by:</p>
 <ul class="tasklist">
-<pre><code>/// html | li
-</code></pre>
-<p><input type='checkbox' checked name="pledge_3_2_1" class="data-input" />
-explicitly weighing investments in new technology against developing in-house expertise, fair compensation, and the effective use of existing technologies.</p>
-<pre><code>///
-
-/// html | li
-</code></pre>
-<p><input type='checkbox' checked name="pledge_3_2_2" class="data-input" />
-developing long-term operational and sustainability plans for the technological systems I am responsible for</p>
-<pre><code>///
-
-/// html | li
-</code></pre>
-<p><input type='checkbox' checked name="pledge_3_2_3" class="data-input" />
-critically assessing potential benefits of new technologies against costs</p>
-<pre><code>///
-
-/// html | li
-</code></pre>
-<p><input type='checkbox' checked name="pledge_3_2_4" class="data-input" />
-considering old methods as an asset that can be exploited, rather than replaced</p>
-<pre><code>///
-
-/// html | li
-</code></pre>
-<p><input type='checkbox' checked name="pledge_3_2_5" class="data-input" />
-always looking at papers that did it in the 60s</p>
-<pre><code>///
-
-/// html | li
-</code></pre>
-<p><input type='checkbox' checked name="pledge_3_2_6" class="data-input" />
-valuing simplicity over complexity</p>
-<pre><code>///
-
-/// html | li
-</code></pre>
-<p><input type='checkbox' checked name="pledge_3_2_7" class="data-input" />
-never applying new tools without validation (and benchmarking)</p>
-<pre><code>///
-
-/// html | li
-</code></pre>
-<p><input type='checkbox' checked name="pledge_3_2_8" class="data-input" />
-moderating my use, design and the conclusions obtained with more complex analyses</p>
-<pre><code>///
-
-/// html | li
-</code></pre>
-<p><input type='checkbox' checked name="pledge_3_2_9" class="data-input" />
-developing projects that incorporate other disciplinary approaches.</p>
-<pre><code>///
-
-/// html | li
-</code></pre>
-<p><input type='checkbox' checked name="pledge_3_2_10" class="data-input" />
-supporting the development and adoption of easy-to-repair, modular hardware with replaceable components, alongside open-source tools that adhere to open data and hardware standards, fostering greater accessibility, interoperability, and sustainability.</p>
-<pre><code>///
-
-/// html | li
-</code></pre>
-<p><input type='checkbox' checked name="pledge_3_2_11" class="data-input" />
-fostering collaboration by sharing high-cost EEG tools, across labs and institutions, reducing waste and increasing efficiency in research. </p>
-<pre><code>///
-</code></pre>
+<li>    <input type='checkbox' checked name="pledge_3_2_1" class="data-input" />
+    explicitly weighing investments in new technology against developing in-house expertise, fair compensation, and the effective use of existing technologies.  </li>
+<li>    <input type='checkbox' checked name="pledge_3_2_2" class="data-input" />
+    developing long-term operational and sustainability plans for the technological systems I am responsible for  </li>
+<li>    <input type='checkbox' checked name="pledge_3_2_3" class="data-input" />
+    critically assessing potential benefits of new technologies against costs  </li>
+<li>    <input type='checkbox' checked name="pledge_3_2_4" class="data-input" />
+    considering old methods as an asset that can be exploited, rather than replaced  </li>
+<li>    <input type='checkbox' checked name="pledge_3_2_5" class="data-input" />
+    always looking at papers that did it in the 60s  </li>
+<li>    <input type='checkbox' checked name="pledge_3_2_6" class="data-input" />
+    valuing simplicity over complexity  </li>
+<li>    <input type='checkbox' checked name="pledge_3_2_7" class="data-input" />
+    never applying new tools without validation (and benchmarking)  </li>
+<li>    <input type='checkbox' checked name="pledge_3_2_8" class="data-input" />
+    moderating my use, design and the conclusions obtained with more complex analyses  </li>
+<li>    <input type='checkbox' checked name="pledge_3_2_9" class="data-input" />
+    developing projects that incorporate other disciplinary approaches.  </li>
+<li>    <input type='checkbox' checked name="pledge_3_2_10" class="data-input" />
+    supporting the development and adoption of easy-to-repair, modular hardware with replaceable components, alongside open-source tools that adhere to open data and hardware standards, fostering greater accessibility, interoperability, and sustainability.  </li>
+<li>    <input type='checkbox' checked name="pledge_3_2_11" class="data-input" />
+    fostering collaboration by sharing high-cost EEG tools, across labs and institutions, reducing waste and increasing efficiency in research.</li>
 </ul>
 </details>
-<details>
+<details class="info">
 <summary>3.3. Research evaluation</summary>
-<p>type: info</p>
-<p>There are growing concerns about the criteria used to evaluate scientific projects and the promises made in relation to them. Many assessment bodies still rely on narrow metrics---such as journal impact factor or h-index---that fail to capture the breadth and nuance of academic careers. This focus discourages interdisciplinary, collaborative, and open-science approaches.</p>
+<p>There are growing concerns about the criteria used to evaluate scientific projects and the promises made in relation to them. Many assessment bodies still rely on narrow metrics—such as journal impact factor or h-index—that fail to capture the breadth and nuance of academic careers. This focus discourages interdisciplinary, collaborative, and open-science approaches.</p>
 <p>Adopting broader research evaluation procedures and metrics recommended by the Coalition for Advancing Research Assessment (<a href="https://coara.eu/" target="_blank">CoARA</a>) is key to creating a more open, equitable, and ethically grounded research culture. Criteria that value transparency, data sharing, and open-source development can strengthen scientific findings' robustness, reliability, and social relevance. Embracing these more comprehensive measures can help foster integrity, encourage collaboration, and ultimately benefit the scientific community and society.</p>
 </details>
-<details>
+<details class="pledge" open="open">
 <summary>Pledges</summary>
-<p>type: pledge
-open: True</p>
 <p><input type='checkbox' checked id="cb-3-3" class="cb-sa" onchange="toggleCheckboxes(event)"/>
 I commit to participating in changing the research evaluation to avoid focusing on a single criterion. I will contribute to broadening research evaluation by:</p>
 <ul class="tasklist">
-<pre><code>/// html | li
-</code></pre>
-<p><input type='checkbox' checked name="pledge_3_3_1" class="data-input" />
-promoting evaluation processes that credit a wide range of research contributions---such as datasets, software, outreach activities, and open-access publications---rather than focusing solely on narrow bibliometric indicators.</p>
-<pre><code>///
-
-/// html | li
-</code></pre>
-<p><input type='checkbox' checked name="pledge_3_3_2" class="data-input" />
-encouraging assessment criteria that prioritize open practices (data sharing, preregistration, code release) and value multidisciplinary teamwork, advocating for and implementing assessment frameworks (e.g., those proposed by CoARA) that emphasize integrity, inclusivity, and social impact alongside scientific excellence.</p>
-<pre><code>///
-
-/// html | li
-</code></pre>
-<p><input type='checkbox' checked name="pledge_3_3_3" class="data-input" />
-continually reviewing and refining evaluation metrics within my sphere of influence---whether as a grant reviewer, hiring committee member, or collaborator---and pushing for broader acceptance of open, ethical, and diversified research practices. </p>
-<pre><code>///
-</code></pre>
+<li>    <input type='checkbox' checked name="pledge_3_3_1" class="data-input" />
+    promoting evaluation processes that credit a wide range of research contributions—such as datasets, software, outreach activities, and open-access publications—rather than focusing solely on narrow bibliometric indicators.   </li>
+<li>    <input type='checkbox' checked name="pledge_3_3_2" class="data-input" />
+    encouraging assessment criteria that prioritize open practices (data sharing, preregistration, code release) and value multidisciplinary teamwork, advocating for and implementing assessment frameworks (e.g., those proposed by CoARA) that emphasize integrity, inclusivity, and social impact alongside scientific excellence.    </li>
+<li>    <input type='checkbox' checked name="pledge_3_3_3" class="data-input" />
+    continually reviewing and refining evaluation metrics within my sphere of influence—whether as a grant reviewer, hiring committee member, or collaborator—and pushing for broader acceptance of open, ethical, and diversified research practices. </li>
 </ul>
 </details>
 <h3 id="environmental-responsibility">Environmental responsibility</h3>
 <p>Although EEG has a relatively low ecological impact in itself, it is part of a broader socio-technological system that has deleterious effects on the environment. It is our responsibility to carefully examine the impact of EEG research and weigh its benefits against its environmental costs, including the energy consumption of data processing, the production and disposal of electronic components, and the travel associated with global scientific collaboration.</p>
-<details>
+<details class="info">
 <summary>3.4 Reconsidering Environmental Impact</summary>
-<p>type: info</p>
-<p>The scientific consensus is clear: human activity, including scientific research, profoundly affects Earth's climate and resources---posing a serious threat to humanity's future. Scientists, positioned at the forefront of knowledge, have a duty not just to document this crisis but also to alter their research practices accordingly (<a href="../references/#Aron2020">Aron et al., 2020</a>; <a href="../references/#Racimo2022">Racimo et al., 2022</a>; <a href="../references/#Rae2022">Rae et al., 2022b</a>; <a href="../references/#Urai2023">Urai &amp; Kelly, 2023</a>). Although EEG and related neuroscience fields may appear less resource-intensive than many other domains, we are still part of a broader infrastructure that depends on finite materials, substantial energy, and complex global supply chains.</p>
-<p>Some lines of EEG research offer potential long-term benefits for human health and well-being. However, they can also require high-performance computing, extensive travel, or large-scale distribution of equipment (e.g., in population neuroscience). Pursuing such work without critically evaluating, or even considering, environmental costs risks perpetuating a "do it because we can" mentality and may be untenable in the long run. Wider collaborations and resource sharing can lead to synergy effects that reduce the ecological footprint of large-scale projects. Moreover, systemic pressures in academia, such as publication demands and grant requirements, may push researchers to pursue scope expansions without equivalent environmental impact scrutiny. Achieving genuine sustainability will require confronting these norms, ensuring that EEG studies are scientifically rigorous and responsive to climate change and resource scarcity.</p>
+<p>The scientific consensus is clear: human activity, including scientific research, profoundly affects Earth’s climate and resources—posing a serious threat to humanity’s future. Scientists, positioned at the forefront of knowledge, have a duty not just to document this crisis but also to alter their research practices accordingly (<a href="../references/#Aron2020">Aron et al., 2020</a>; <a href="../references/#Racimo2022">Racimo et al., 2022</a>; <a href="../references/#Rae2022">Rae et al., 2022b</a>; <a href="../references/#Urai2023">Urai &amp; Kelly, 2023</a>). Although EEG and related neuroscience fields may appear less resource-intensive than many other domains, we are still part of a broader infrastructure that depends on finite materials, substantial energy, and complex global supply chains.</p>
+<p>Some lines of EEG research offer potential long-term benefits for human health and well-being. However, they can also require high-performance computing, extensive travel, or large-scale distribution of equipment (e.g., in population neuroscience). Pursuing such work without critically evaluating, or even considering, environmental costs risks perpetuating a “do it because we can” mentality and may be untenable in the long run. Wider collaborations and resource sharing can lead to synergy effects that reduce the ecological footprint of large-scale projects. Moreover, systemic pressures in academia, such as publication demands and grant requirements, may push researchers to pursue scope expansions without equivalent environmental impact scrutiny. Achieving genuine sustainability will require confronting these norms, ensuring that EEG studies are scientifically rigorous and responsive to climate change and resource scarcity. </p>
 </details>
-<details>
+<details class="pledge" open="open">
 <summary>Pledges</summary>
-<p>type: pledge
-open: True</p>
 <p><input type='checkbox' checked id="cb-3-4" class="cb-sa" onchange="toggleCheckboxes(event)"/>
-I commit to consider the environmental impact of my lab and my research. I will do this by:</p>
+I commit to consider the environmental impact of my lab and my research. I will do this by: </p>
 <ul class="tasklist">
-<pre><code>/// html | li
-</code></pre>
-<p><input type='checkbox' checked name="pledge_3_4_1" class="data-input" />
-advocating for ethical regulations and policies that require serious consideration of environmental impact---especially for high-resource or energy-intensive studies.</p>
-<pre><code>///
-
-/// html | li
-</code></pre>
-<p><input type='checkbox' checked name="pledge_3_4_2" class="data-input" />
-weighing potential short- and long-term environmental costs against any projected benefits when starting or collecting funds for a project.</p>
-<pre><code>///
-
-/// html | li
-</code></pre>
-<p><input type='checkbox' checked name="pledge_3_4_3" class="data-input" />
-remaining mindful of how academia's incentive structures can undermine sustainability goals. I will strive to foster discussions, both within my lab and in broader networks, about rethinking these systemic norms.</p>
-<pre><code>///
-
-/// html | li
-</code></pre>
-<p><input type='checkbox' checked name="pledge_3_4_4" class="data-input" />
-prioritizing or designing research programs that have a clearly defined path toward tangible, long-term societal or environmental benefits rather than short-lived or insular academic gains.</p>
-<pre><code>///
-
-/// html | li
-</code></pre>
-<p><input type='checkbox' checked name="pledge_3_4_5" class="data-input" />
-not considering EEG or my specific field as inherently exempt from sustainability concerns. My research is part of a larger, resource-intensive system; I acknowledge my role within that system and strive to minimize its negative impacts.</p>
-<pre><code>///
-
-/// html | li
-</code></pre>
-<p><input type='checkbox' checked name="pledge_3_4_6" class="data-input" />
-cultivating a "climate handshake," using my position to influence others positively---whether that means introducing sustainable measures in my department, mentoring students on responsible research practices, or partnering with like-minded groups to effect broader change. </p>
-<pre><code>///
-</code></pre>
+<li>    <input type='checkbox' checked name="pledge_3_4_1" class="data-input" />
+    advocating for ethical regulations and policies that require serious consideration of environmental impact—especially for high-resource or energy-intensive studies.   </li>
+<li>    <input type='checkbox' checked name="pledge_3_4_2" class="data-input" />
+    weighing potential short- and long-term environmental costs against any projected benefits when starting or collecting funds for a project.  </li>
+<li>    <input type='checkbox' checked name="pledge_3_4_3" class="data-input" />
+    remaining mindful of how academia’s incentive structures can undermine sustainability goals. I will strive to foster discussions, both within my lab and in broader networks, about rethinking these systemic norms.  </li>
+<li>    <input type='checkbox' checked name="pledge_3_4_4" class="data-input" />
+    prioritizing or designing research programs that have a clearly defined path toward tangible, long-term societal or environmental benefits rather than short-lived or insular academic gains.  </li>
+<li>    <input type='checkbox' checked name="pledge_3_4_5" class="data-input" />
+    not considering EEG or my specific field as inherently exempt from sustainability concerns. My research is part of a larger, resource-intensive system; I acknowledge my role within that system and strive to minimize its negative impacts.  </li>
+<li>    <input type='checkbox' checked name="pledge_3_4_6" class="data-input" />
+    cultivating a “climate handshake,” using my position to influence others positively—whether that means introducing sustainable measures in my department, mentoring students on responsible research practices, or partnering with like-minded groups to effect broader change.</li>
 </ul>
 </details>
-<details>
+<details class="info">
 <summary>3.5 Measuring and reducing the environmental footprint of our work</summary>
-<p>type: info</p>
 <p>While EEG itself generally has a moderate ecological impact, the datasets involved can be very large, and the required storage and computational power used to support EEG sciences continue to expand. Moreover, we need to account for the broader environmental footprint of our professional activities (e.g., conference travel, institutional purchases, and overall infrastructure; see (<a href="../references/#Mariette2022">Mariette et al., 2022</a>; <a href="../references/#Souter2024">Souter et al., 2024</a>; <a href="../references/#Lannelongue2021">Lannelongue et al., 2021</a>), for similar initiative in fMRI).</p>
-<p>A key first step is quantifying this impact (e.g., using apps.labos1point5.org). With that knowledge, researchers can identify practical measures to reduce adverse outcomes while preserving core scientific aims. However, rebound effects---where well-intentioned actions produce unintended harm---must be carefully monitored to ensure that measures to reduce our carbon footprint do not inadvertently lead to other adverse consequences.</p>
+<p>A key first step is quantifying this impact (e.g., using apps.labos1point5.org). With that knowledge, researchers can identify practical measures to reduce adverse outcomes while preserving core scientific aims. However, rebound effects—where well-intentioned actions produce unintended harm—must be carefully monitored to ensure that measures to reduce our carbon footprint do not inadvertently lead to other adverse consequences.</p>
 </details>
-<details>
+<details class="pledge" open="open">
 <summary>Pledges</summary>
-<p>type: pledge
-open: True</p>
 <p><input type='checkbox' checked id="cb-3-5" class="cb-sa" onchange="toggleCheckboxes(event)"/>
 I pledge to minimize the environmental impact of my research through sustainable practices across multiple domains. I will do this by:</p>
 <ul class="tasklist">
-<pre><code>/// html | li
-</code></pre>
-<p><input type='checkbox' checked name="pledge_3_5_1" class="data-input" />
-using responsible data management, such as archiving datasets efficiently to reduce redundancy and prioritizing cloud-based services powered by renewable energy.</p>
-<pre><code>///
-
-/// html | li
-</code></pre>
-<p><input type='checkbox' checked name="pledge_3_5_2" class="data-input" />
-advocating for virtual conferences, workshops, and meetings to reduce travel-related emissions while promoting hybrid formats for inclusivity and accessibility.</p>
-<pre><code>///
-
-/// html | li
-</code></pre>
-<p><input type='checkbox' checked name="pledge_3_5_3" class="data-input" />
-reserving air travel for young researchers who need it the most to launch their careers and build their network.</p>
-<pre><code>///
-
-/// html | li
-</code></pre>
-<p><input type='checkbox' checked name="pledge_3_5_4" class="data-input" />
-using energy-efficient algorithms, optimizing computational methods to reduce runtime and energy consumption, and scheduling resource-intensive analyses during off-peak energy hours where feasible.</p>
-<pre><code>///
-
-/// html | li
-</code></pre>
-<p><input type='checkbox' checked name="pledge_3_5_5" class="data-input" />
-evaluating the environmental impact of my laboratory and research projects by quantifying emissions, energy usage, and waste production through available tools, and using these evaluations to guide more sustainable practices in daily operations and long-term planning.</p>
-<pre><code>///
-
-/// html | li
-</code></pre>
-<p><input type='checkbox' checked name="pledge_3_5_6" class="data-input" />
-critically evaluating my own research projects and considering renouncing to run a project if it does not yield future benefits. </p>
-<pre><code>///
-</code></pre>
+<li>   <input type='checkbox' checked name="pledge_3_5_1" class="data-input" />
+   using responsible data management, such as archiving datasets efficiently to reduce redundancy and prioritizing cloud-based services powered by renewable energy.  </li>
+<li>   <input type='checkbox' checked name="pledge_3_5_2" class="data-input" />
+   advocating for virtual conferences, workshops, and meetings to reduce travel-related emissions while promoting hybrid formats for inclusivity and accessibility.  </li>
+<li>   <input type='checkbox' checked name="pledge_3_5_3" class="data-input" />
+   reserving air travel for young researchers who need it the most to launch their careers and build their network.  </li>
+<li>   <input type='checkbox' checked name="pledge_3_5_4" class="data-input" />
+   using energy-efficient algorithms, optimizing computational methods to reduce runtime and energy consumption, and scheduling resource-intensive analyses during off-peak energy hours where feasible.  </li>
+<li>   <input type='checkbox' checked name="pledge_3_5_5" class="data-input" />
+   evaluating the environmental impact of my laboratory and research projects by quantifying emissions, energy usage, and waste production through available tools, and using these evaluations to guide more sustainable practices in daily operations and long-term planning.  </li>
+<li>   <input type='checkbox' checked name="pledge_3_5_6" class="data-input" />
+   critically evaluating my own research projects and considering renouncing to run a project if it does not yield future benefits.</li>
 </ul>
 </details>
-<details>
+<details class="info">
 <summary>3.6 Using research resources, equipment and data thoughtfully</summary>
-<p>type: info</p>
-<p>While non-invasive EEG often appears low-impact compared to more resource-intensive methods, individual projects can still consume substantial time, funding, and materials---particularly if their design is inefficient or redundant. Consequently, reviewing existing datasets and clarifying genuine methodological advances before embarking on new recordings are essential to ensure our collective use of participant time and laboratory resources remains ethical and environmentally sound. By being judicious about data collection, we respect our participants and optimize the use of laboratory, computational, and environmental resources.</p>
-<p>Further, the production and disposal of scientific equipment contribute significantly to pollution and waste. Encouraging <strong>equipment pooling, sharing</strong>, or applying a 3Rs approach ("Reduce, Reuse, Recycle" <a href="../references/#Marques2020">Marques &amp; Fritzen Gomes, 2020</a>) in the lab can help reduce the demand for new devices and extend the lifespan of existing ones. By reducing resource usage and waste production, we not only lessen our environmental impact but also encourage a more collaborative and cost-effective research environment.</p>
-<p>Likewise, our field generates vast volumes of data, and we are responsible for ensuring they are fully utilized. Meta-analyses---where multiple teams aggregate already-collected datasets---also decrease resource usage, strengthen collaboration, and foster more reliable findings (<a href="../references/#Koile2021">Koile &amp; Cristia, 2021</a>). To facilitate sharing and reuse, it is essential to standardize data acquisition and analysis and to manage data according to the FAIR principles <a href="../references/#Wilkinson2016">(Wilkinson et al., 2016c)</a>, ensuring that it remains Findable, Accessible, Interoperable, and Reusable (See also Section 1.2).</p>
+<p>While non-invasive EEG often appears low-impact compared to more resource-intensive methods, individual projects can still consume substantial time, funding, and materials—particularly if their design is inefficient or redundant. Consequently, reviewing existing datasets and clarifying genuine methodological advances before embarking on new recordings are essential to ensure our collective use of participant time and laboratory resources remains ethical and environmentally sound. By being judicious about data collection, we respect our participants and optimize the use of laboratory, computational, and environmental resources.</p>
+<p>Further, the production and disposal of scientific equipment contribute significantly to pollution and waste. Encouraging <strong>equipment pooling, sharing</strong>, or applying a 3Rs approach (“Reduce, Reuse, Recycle” <a href="../references/#Marques2020">Marques &amp; Fritzen Gomes, 2020</a>) in the lab can help reduce the demand for new devices and extend the lifespan of existing ones. By reducing resource usage and waste production, we not only lessen our environmental impact but also encourage a more collaborative and cost-effective research environment.</p>
+<p>Likewise, our field generates vast volumes of data, and we are responsible for ensuring they are fully utilized. Meta-analyses—where multiple teams aggregate already-collected datasets—also decrease resource usage, strengthen collaboration, and foster more reliable findings (<a href="../references/#Koile2021">Koile &amp; Cristia, 2021</a>). To facilitate sharing and reuse, it is essential to standardize data acquisition and analysis and to manage data according to the FAIR principles <a href="../references/#Wilkinson2016">(Wilkinson et al., 2016c)</a>, ensuring that it remains Findable, Accessible, Interoperable, and Reusable (See also Section 1.2).</p>
 </details>
-<details>
+<details class="pledge" open="open">
 <summary>Pledges</summary>
-<p>type: pledge
-open: True</p>
 <p><input type='checkbox' checked id="cb-3-6" class="cb-sa" onchange="toggleCheckboxes(event)"/>
 I commit to fostering a thoughtful use of resources, equipment and data, by:</p>
 <ul class="tasklist">
-<pre><code>/// html | li
-</code></pre>
-<p><input type='checkbox' checked name="pledge_3_6_1" class="data-input" />
-reviewing existing datasets and reusing previously collected or open data whenever feasible and only collecting new EEG data if it provides novel insights, significantly improves upon current methodologies, or addresses a well-defined research gap---thereby respecting participants' time, minimizing resource use, and fostering more sustainable, ethical EEG science.</p>
-<pre><code>///
-
-/// html | li
-</code></pre>
-<p><input type='checkbox' checked name="pledge_3_6_2" class="data-input" />
-contributing to collaborations across labs to share facilities and optimize resource utilization - from headsets to high-performance clusters.</p>
-<pre><code>///
-
-/// html | li
-</code></pre>
-<p><input type='checkbox' checked name="pledge_3_6_3" class="data-input" />
-establishing and participating in equipment-sharing networks or consortia that facilitate access to specialized instruments.</p>
-<pre><code>///
-
-/// html | li
-</code></pre>
-<p><input type='checkbox' checked name="pledge_3_6_4" class="data-input" />
-advocating for manufacturers to support sustainable practices by providing long-term support, repair services, and recycling programs for their equipment.</p>
-<pre><code>///
-
-/// html | li
-</code></pre>
-<p><input type='checkbox' checked name="pledge_3_6_5" class="data-input" />
-selecting EEG equipment based on durability and ability to repair, promoting practices that extend the life of equipment, such as regular maintenance, repairs, and upgrades, rather than immediate replacement. </p>
-<pre><code>///
-</code></pre>
+<li>   <input type='checkbox' checked name="pledge_3_6_1" class="data-input" />
+   reviewing existing datasets and reusing previously collected or open data whenever feasible and only collecting new EEG data if it provides novel insights, significantly improves upon current methodologies, or addresses a well-defined research gap—thereby respecting participants’ time, minimizing resource use, and fostering more sustainable, ethical EEG science.  </li>
+<li>   <input type='checkbox' checked name="pledge_3_6_2" class="data-input" />
+   contributing to collaborations across labs to share facilities and optimize resource utilization - from headsets to high-performance clusters.  </li>
+<li>   <input type='checkbox' checked name="pledge_3_6_3" class="data-input" />
+   establishing and participating in equipment-sharing networks or consortia that facilitate access to specialized instruments.  </li>
+<li>   <input type='checkbox' checked name="pledge_3_6_4" class="data-input" />
+   advocating for manufacturers to support sustainable practices by providing long-term support, repair services, and recycling programs for their equipment.  </li>
+<li>   <input type='checkbox' checked name="pledge_3_6_5" class="data-input" />
+   selecting EEG equipment based on durability and ability to repair, promoting practices that extend the life of equipment, such as regular maintenance, repairs, and upgrades, rather than immediate replacement.</li>
 </ul>
-</details>
 </details>
 
 
