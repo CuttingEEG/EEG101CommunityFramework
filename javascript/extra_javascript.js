@@ -113,3 +113,20 @@ function toggleFold(state) {
     allDetails = document.querySelectorAll("details");
     Array.from(allDetails).forEach(el => el.open = state);
 }
+
+// Make all external links open in new tab (only on references page)
+document.addEventListener('DOMContentLoaded', function() {
+    // Check if we're on the references page
+    if (window.location.pathname.includes('/references/') || window.location.pathname.endsWith('/references') || document.title.toLowerCase().includes('references')) {
+        // Select all links that start with http or https (external links)
+        const externalLinks = document.querySelectorAll('a[href^="http"], a[href^="https"]');
+        
+        externalLinks.forEach(function(link) {
+            // Only add target="_blank" if it doesn't already have a target attribute
+            if (!link.hasAttribute('target')) {
+                link.setAttribute('target', '_blank');
+                link.setAttribute('rel', 'noopener noreferrer'); // Security best practice
+            }
+        });
+    }
+});
