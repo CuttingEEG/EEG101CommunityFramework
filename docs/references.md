@@ -1,3 +1,12 @@
+---
+extra_javascript:
+  - https://code.jquery.com/jquery-3.6.0.min.js
+  - |
+    $(document).ready(function() {
+      $('a[href^="http"]').attr('target', '_blank');
+    });
+---
+
 # References
 
 If you'd like to see the living reference list for the EEG Community Framework please go to the 
