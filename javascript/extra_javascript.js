@@ -122,8 +122,15 @@ document.addEventListener('DOMContentLoaded', function() {
         const externalLinks = document.querySelectorAll('a[href^="http"], a[href^="https"]');
         
         externalLinks.forEach(function(link) {
-            // Only add target="_blank" if it doesn't already have a target attribute
-            if (!link.hasAttribute('target')) {
+            // Skip links in navigation areas
+            const isInNav = link.closest('nav') || 
+                           link.closest('.md-header') || 
+                           link.closest('.md-tabs') || 
+                           link.closest('.md-nav') ||
+                           link.closest('[data-md-component="navigation"]');
+            
+            // Only add target="_blank" if it doesn't already have a target attribute and not in navigation
+            if (!link.hasAttribute('target') && !isInNav) {
                 link.setAttribute('target', '_blank');
                 link.setAttribute('rel', 'noopener noreferrer'); // Security best practice
             }
