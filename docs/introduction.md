@@ -37,4 +37,6 @@ Ultimately, a manifesto’s value is measured not by its wording or by how many 
 
 Although this manifesto centres on EEG, we expect that its core themes might resonate across neuroimaging, and perhaps even science at large. A key driving force behind the new potential and renewed excitement of EEG comes from the increase in the availability and robustness of portable systems ([Hinrichs et al., 2020](references.md#Hinrichs2020); [Marini et al., 2019](references.md#Marini2019); [Niso et al., 2023](references.md#Niso2023); [Radüntz, 2018](references.md#Raduntz2018)). Colleagues working with Functional Near Infrared Spectroscopy (fNIRS) (e.g. [Burns et al., 2019](references.md#Burns2019)) and perhaps soon magnetoencephalography (MEG) (e.g. [Boto et al., 2017](references.md#Boto2017); [Schofield et al., 2024](references.md#Schofield2024)) might also find themselves in a similar situation and may find these reflections relevant to their own fields. They are welcome to join this initiative or may prefer to develop similar approaches within their communities. 
 
+Reaching out to the Community Framework's steering group is possible by email: [eegcf@proton.me](mailto:eegcf@proton.me).
+
 ///
