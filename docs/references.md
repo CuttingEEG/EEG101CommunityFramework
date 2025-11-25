@@ -1,7 +1,7 @@
 # References
 
 If you'd like to see the living reference list for the EEG Community Framework please go to the 
-[Zotero library](https://www.zotero.org/groups/5794905/eegcommunityframework/library){:target="_blank"}
+[Zotero library](https://www.zotero.org/groups/5794905/eegcommunityframework/library)
 
 
 
