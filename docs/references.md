@@ -5,7 +5,7 @@ If you'd like to see the living reference list for the EEG Community Framework p
 
 
 
-- [*Achieving diversity in Research*. (2020, July 1). Nature.](https://www.nature.com/collections/qsgnpdtgbr){ #Diversity2020 }{:target="_blank"}
+- [*Achieving diversity in Research*. (2020, July 1). Nature.](https://www.nature.com/collections/qsgnpdtgbr){ #Diversity2020 }
 
 - [Aczel, B., Szaszi, B., Nilsonne, G., van den Akker, O. R., Albers, C. J., van Assen, M. A., Bastiaansen, J. A., Benjamin, D., Boehm, U., Botvinik-Nezer, R., Bringmann, L. F., Busch, N. A., Caruyer, E., Cataldo, A. M., Cowan, N., Delios, A., van Dongen, N. N., Donkin, C., van Doorn, J. B., … Wagenmakers, E.-J. (2021). Consensus-based guidance for conducting and reporting multi-analyst studies. *eLife*, *10*, e72185.](https://doi.org/10.7554/eLife.72185){ #Aczel2021 }
 
