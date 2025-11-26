@@ -1,1 +1,1 @@
-# Community Framework Signatories
+# Signatories
