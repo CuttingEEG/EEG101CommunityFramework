@@ -15,7 +15,7 @@ If you'd like to see the living reference list for the EEG Community Framework p
 
 - [Aron, A. R., Ivry, R. B., Jeffery, K. J., Poldrack, R. A., Schmidt, R., Summerfield, C., & Urai, A. E. (2020). How Can Neuroscientists Respond to the Climate Emergency? *Neuron*, *106*(1), 17–20.](https://doi.org/10.1016/j.neuron.2020.02.019){ #Aron2020 }
 
-- Bastos-Filho, T. (2020). *Introduction to Non-Invasive EEG-Based Brain-Computer Interfaces for Assistive Technologies*. CRC Press.[](){ #Bastos2020 }
+- [Bastos-Filho, T. (2020). *Introduction to Non-Invasive EEG-Based Brain-Computer Interfaces for Assistive Technologies*. CRC Press.](){ #Bastos2020 }
 
 - [Becoming a Scientist: The Graphic Novel. (2024, July 31). Issuu. ](https://issuu.com/adrian.liston/docs/becoming_a_scientist){ #Becoming2024 }
 
@@ -65,13 +65,13 @@ If you'd like to see the living reference list for the EEG Community Framework p
 
 - [Frégnac, Y. (2017). Big data and the industrialization of neuroscience: A safe roadmap for understanding the brain? Science, 358(6362), 470–477.](https://doi.org/10.1126/science.aan8866){ #Fregnac2017 }
 
-- Gerstner, W., Sprekeler, H., & Deco, G. (2012). Theory and Simulation in Neuroscience. *Science*, *338*(6103), 60–65.[](){ #Gerstner2012 }  
+- [Gerstner, W., Sprekeler, H., & Deco, G. (2012). Theory and Simulation in Neuroscience. *Science*, *338*(6103), 60–65.](https://www.science.org/doi/10.1126/science.1227356){ #Gerstner2012 }  
 
-- Girolamo, T., Parker, T. C., & Eigsti, I.-M. (2022). Incorporating Dis/ability Studies and Critical Race Theory to combat systematic exclusion of Black, Indigenous, and People of Color in clinical neuroscience. *Frontiers in Neuroscience*, *16*, 988092\.[](){ #Girolamo2022 }
+- [Girolamo, T., Parker, T. C., & Eigsti, I.-M. (2022). Incorporating Dis/ability Studies and Critical Race Theory to combat systematic exclusion of Black, Indigenous, and People of Color in clinical neuroscience. *Frontiers in Neuroscience*, *16*, 988092\.](https://www.frontiersin.org/articles/10.3389/fnins.2022.988092/full){ #Girolamo2022 }
 
 - [Govaart, G. H., Schettino, A., Helbling, S., Mehler, D. M. A., Ngiam, W. X. Q., Moreau, D., Chiossi, F., Zanesco, A. P., Yang, Y.-F., Gau, R., Bartlett, J. E., Alanis, J. C. G., Gutsell, J., Çetinçelik, M., Pavlov, Y. G., Šoškić, A., Ehinger, B. V., Mouseli, P., Algermissen, J., … Paul, M. (2022). *EEG ERP Preregistration Template*. OSF.](https://doi.org/10.31222/osf.io/4nvpt){ #Govaart2022 }
 
-- Hari, R., & Puce, A. (2023). *MEG-EEG Primer*. Oxford University Press.[](){ #Hari2023 }
+- [Hari, R., & Puce, A. (2023). *MEG-EEG Primer*. Oxford University Press.](){ #Hari2023 }
 
 - [Henrich, J. (2020). *The WEIRDest People In The World: How The West Became Psychologically Peculiar And Particularly Prosperous*.](http://archive.org/details/the-weirdest-people-in-the-world-how-the-west-became-psychologically-peculiar){ #Henrich2020 }
 
