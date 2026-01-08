@@ -1,4 +1,4 @@
-# EEG Community framework {. #main-title}
+# EEG101 Community Framework {. #main-title}
 Toward a deontological framework for EEG science
 {. #subtitle }
 
