@@ -2,7 +2,7 @@
 
 This document is a starting point for **building a deontological framework for EEG science** and upgrading our practices accordingly. It aims to outline the standards we believe are essential to collectively maximize the positive impact of EEG research for society. It is a call to action, to encourage critical reflection on the broader consequences of scientific research while sharing emerging alternatives.
 
-You can view [here a one page summary](https://docs.google.com/presentation/d/19K-5efo4_rZRZmKsWJkKEnBaIFQcqRBC){:target="_blank"} of the Framework.
+You can view [here a one page summary](https://drive.google.com/file/d/1UscpVlSCVUtBH5wN-b86EVxKMoGb_TsZ/view){:target="_blank"} of the Framework.
 
 In the following, we highlight what we perceive as the most pressing issues across three domains: (i) **scientific integrity and epistemological rigor**; (ii) **Democratization**; and (iii) **technological and environmental responsibility**.
 
