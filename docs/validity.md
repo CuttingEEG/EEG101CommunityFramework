@@ -193,6 +193,44 @@ I commit to supporting open scientific practices to promote transparency, collab
 
 ///
 
+/// details | 1.4. Research evaluation
+    type: info 
+
+There are growing concerns about the criteria used to evaluate scientific projects and the promises made in relation to them. Many assessment bodies still rely on narrow metrics—such as journal impact factor or h-index—that fail to capture the breadth and nuance of academic careers. This focus discourages interdisciplinary, collaborative, and open-science approaches.
+
+Adopting broader research evaluation procedures and metrics recommended by the Coalition for Advancing Research Assessment ([CoARA](https://coara.eu/){:target="_blank"}) is key to creating a more open, equitable, and ethically grounded research culture. Criteria that value transparency, data sharing, and open-source development can strengthen scientific findings' robustness, reliability, and social relevance. Embracing these more comprehensive measures can help foster integrity, encourage collaboration, and ultimately benefit the scientific community and society.
+
+///
+
+/// details | Pledges
+    type: pledge
+    open: True
+
+<input type='checkbox' checked id="cb-3-3" class="cb-sa" onchange="toggleCheckboxes(event)"/>
+I commit to participating in changing the research evaluation to avoid focusing on a single criterion. I will contribute to broadening research evaluation by:
+
+/// html | ul.tasklist
+
+  /// html | li
+
+    <input type='checkbox' checked name="pledge_3_3_1" class="data-input" />
+    promoting evaluation processes that credit a wide range of research contributions—such as datasets, software, outreach activities, and open-access publications—rather than focusing solely on narrow bibliometric indicators.   
+  ///
+  /// html | li
+
+    <input type='checkbox' checked name="pledge_3_3_2" class="data-input" />
+    encouraging assessment criteria that prioritize open practices (data sharing, preregistration, code release) and value multidisciplinary teamwork, advocating for and implementing assessment frameworks (e.g., those proposed by CoARA) that emphasize integrity, inclusivity, and social impact alongside scientific excellence.    
+  ///
+  /// html | li
+
+    <input type='checkbox' checked name="pledge_3_3_3" class="data-input" />
+    continually reviewing and refining evaluation metrics within my sphere of influence—whether as a grant reviewer, hiring committee member, or collaborator—and pushing for broader acceptance of open, ethical, and diversified research practices. 
+  ///
+
+///
+
+///
+
 ### Interpretable and theoretically well-grounded research
 
 For EEG research to drive meaningful progress, it must be grounded in current theories and integrate insights from multiple disciplines. This is especially crucial as AI tools and models become increasingly prominent in the field.
