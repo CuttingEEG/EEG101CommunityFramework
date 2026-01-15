@@ -235,7 +235,7 @@ I commit to participating in changing the research evaluation to avoid focusing 
 
 For EEG research to drive meaningful progress, it must be grounded in current theories and integrate insights from multiple disciplines. This is especially crucial as AI tools and models become increasingly prominent in the field.
 
-/// details | 1.4. Theory-driven and data-driven research
+/// details | 1.5. Theory-driven and data-driven research
     type: info 
 
 Recent years have seen an increasing emphasis on ever-larger datasets ([Frégnac, 2017](references.md#Fregnac2017)) with insufficient attention to the theoretical underpinnings that might explain brain activity and its emergent properties ([Borsboom et al., 2021](references.md#Borsboom2021); [Eronen & Bringmann, 2021](references.md#Eronen2021); [Gerstner et al., 2012](references.md#Gerstner2012)). 
@@ -291,7 +291,7 @@ I commit to balancing theory-driven and data-driven approaches in my research. I
 
 ///
 
-/// details | 1.5. Transparent, interpretable, and explainable modeling 
+/// details | 1.6. Transparent, interpretable, and explainable modeling 
     type: info 
 
 A key challenge emerging for complex computational models—particularly those applied to data analysis and clinical decision-making—is ensuring their transparency, interpretability, and explainability. Modern ML/AI architectures often surpass our theoretical grasp [(Holzinger et al., 2022)](references.md#Holzinger2022), creating an epistemic gap where we rely on tools we cannot fully comprehend [(Cichy & Kaiser, 2019)](references.md#Cichy2019). To address this, the EEG community must dedicate basic research and advanced computational tools (see the Local Interpretable Model-Agnostic or LIME approach as one such framework [(Ribeiro et al., 2016)](references.md#Ribeiro2016) to uncovering how these models operate, while simultaneously leveraging their potential to advance knowledge and applications.
